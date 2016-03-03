@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+}
+
+/*
+    SOCIAL AVATAR
+*/
+
+.social_avatar {
+    position: relative;
+    display: inline-block;
+}
+
+
+.social_avatar .avatar {
+    width: 30rem;    
+    margin: 4rem;
+    border-radius: 15rem;
+    z-index: 1;
+}
+
+
+.social_avatar .social_icon {
+    width: 8rem;   
+    /* The icons are positioned absolutely on the .social_avatar */
+    position: absolute;
+    
+    /* The icons are translated so the top and left properties correspond to their center */
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 50%; 
+    display: none;
+    z-index: 1;
+}
+
+
+
+
+
+/*
+    NAVIGATION BAR
+*/
+
+
+nav {
+    margin: 2rem;
+}
+
+nav span {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: #000;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+nav span.active {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+
+nav span:hover {
+    cursor: pointer;
+}
+
+/*
+    THE CANVAS
+*/
+
+#the_canvas {
+    border: 1px solid #000;
+}
+
+
+/*
+    THE FORMULAS
+*/
+
+.formula {
+    margin-top: 2rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.formula_parameters {
+    margin-top: 2rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
